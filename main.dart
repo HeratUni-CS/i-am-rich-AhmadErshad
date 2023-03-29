@@ -9,7 +9,10 @@ void main() {
           title: Center(child: Text('I am rich')),
         ),
         body: Center(
-          child: Text('I am Ahmad Ershad Omari'),
+          child: Image(
+            // Put our image  (Asset) into pubspec.yaml
+            image: AssetImage('image/car.png'),
+          ),
         ),
       ),
     ),
